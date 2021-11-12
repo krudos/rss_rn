@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleItem renders correctly 1`] = `
+<View>
+  <Text>
+    test
+  </Text>
+  <Text>
+    
+  </Text>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "blue",
+        "marginHorizontal": 40,
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 24,
+          "fontWeight": "300",
+          "textAlign": "center",
+        }
+      }
+    >
+      Open
+    </Text>
+  </View>
+  <Webview
+    originWhitelist={
+      Array [
+        "*",
+      ]
+    }
+    scalesPageToFit={true}
+    source={
+      Object {
+        "html": "",
+      }
+    }
+    style={
+      Object {
+        "marginTop": 35,
+        "width": 735,
+      }
+    }
+    viewportContent="width=device-width, user-scalable=no"
+  />
+</View>
+`;
